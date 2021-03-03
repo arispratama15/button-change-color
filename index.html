@@ -1,14 +1,31 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>JavaScript and the DOM</title>
-    <link rel="stylesheet" href="css/style.css">
-  </head>
-  <body>
-    <h1 id="myHeading">JavaScript and the DOM</h1>
-    <p>Making a web page interactive</p>
-    <input type='text' id="myTextInput"></input>
-    <button id="myButton">change color</button>
-    <script src="js/app.js"></script>
-  </body>
+
+<head>
+  <title>JavaScript and the DOM</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <h1 id="myHeading">JavaScript and the DOM</h1>
+  <p>Making a web page interactive</p>
+  <input type="text" id="myTextInput">
+  <button id="myButton">change color</button>
+  <div>
+    <button id="toggleList">Hide list</button>
+  </div>
+  <div class="list">
+    <p class="description">Things that are purple:</p>
+    <input type="text" class="description">
+    <button class="description">Change list description</button>
+    <ul>
+      <li>grapes</li>
+      <li>amethyst</li>
+      <li>lavender</li>
+      <li>plums</li>
+    </ul>
+  </div>
+  <script src="js/app.js"></script>
+</body>
+
 </html>
